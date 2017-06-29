@@ -1,26 +1,16 @@
 import React, { Component } from 'react';
-var ReactRouter = require('react-router-dom');
-var Router = ReactRouter.BrowserRouter;
-var Route = ReactRouter.Route;
-var Nav = require('./components/Nav');
-var About = require('./components/About');
-
+import Nav from './components/Nav.js'
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-          <Router>
-            <div className="container">
-              <Nav />
-              <Route path='/about' component={About} />
-            </div>
-          </Router>
-
-
+        
+        dfsdfsdfsdfd
+        
       </div>
-    );
+    )
   }
 }
 
