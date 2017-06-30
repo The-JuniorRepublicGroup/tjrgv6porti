@@ -10,10 +10,10 @@ export default class Contact extends Component{
 
                     <div>
                         <form>
-                            <input type="text" placeholder="Enter Name here..." />
-                            <input type="email" placeholder="Enter Email here..." />
+                            <input type="text" name="name" value={this.state.name} placeholder="Enter Name here..." />
+                            <input type="email" name="email" value={this.state.email} placeholder="Enter Email here..." />
                             <br />
-                            <input type="textarea" placeholder="Enter Message here..." />
+                            <input type="textarea" name="message" value={this.state.message} placeholder="Enter Message here..." />
                             <br />
                             <button type="submit">SEND</button>
                         </form>
