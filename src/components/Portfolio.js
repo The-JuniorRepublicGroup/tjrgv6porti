@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
 
-export default class Blog extends Component{
+export default class Portfolio extends Component{
     
     render(){
         return(
-                <h1>This is the Blog Component</h1>
+                <h1>This is the Portfolio Component</h1>
             )
     }
     

@@ -5,7 +5,11 @@ export default class Home extends Component{
     
     render(){
         return(
-                <h1>This is the Home Component</h1>
+                <div>
+                    <h1>The Junior Republic Group</h1>
+                    <h6>Think. Software Solutions</h6>
+                </div>
+                
             )
     }
     

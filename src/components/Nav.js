@@ -13,14 +13,17 @@ export default class Nav extends Component {
                     <li>
                         <NavLink exact activeStyle={{background: 'black', color: 'white'}} to="/">Home</NavLink>
                     </li>
+
                     <li>
                         <NavLink exact activeStyle={{background: 'black', color: 'white'}} to="/about">About</NavLink>
                     </li>
+
                     <li>
                         <NavLink exact activeStyle={{background: 'black', color: 'white'}} to="/contact">Contact</NavLink>
                     </li>
+                    
                     <li>
-                        <NavLink exact activeStyle={{background: 'black', color: 'white'}} to="/blog">Blog</NavLink>
+                        <NavLink exact activeStyle={{background: 'black', color: 'white'}} to="/portfolio">Portfolio</NavLink>
                     </li>
                 </ul>
                     
