@@ -6,17 +6,25 @@ export default class Portfolio extends Component{
     render(){
         return(
 
-            <div className="portfolio">
-                <h2>This is the Portfolio Component</h2>
-                <div className="project">
-                    <img src="https://s17.postimg.org/xixeyesbz/image_grid.png" alt="#" />
+            <div className="example-2 card">
+                <div className="wrapper">
+                <div className="header">
+                    <div className="date">
+                        <span className="month">Aug</span>
+                        &nbsp;
+                        <span className="year">2016</span>
+                    </div>
                 </div>
-
-                <div className="info">
-                    <h3>Project Name</h3>
-                    <p>Something Describing This Project</p>
+                <div className="data">
+                    <div className="content">
+                        <p>Some kind of description about the project entered here...</p>
+                        <a href="#" className="button">Read more</a>
+                    </div>
+                </div>
+                    <h2>Project #1</h2> 
                 </div>
             </div>
+            
             )
     }
     
