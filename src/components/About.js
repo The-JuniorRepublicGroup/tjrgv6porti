@@ -6,13 +6,11 @@ export default class About extends Component{
     render(){
         return(
             <div className="container">
-                <h2><u>About Us</u></h2>
-                <p>The Junior Republic Group is a small but capable software 
-                    consulting company. We like helping our clients create cool shit. 
-                    We makes it simple and affordable to create premium projects. 
-                    Our services also include Web Apps, Websites, Content Management Systems, 
-                    Online Marketing, Print Services and Support & Maintenance. 
-                    We like to think of ourselves as a software solutions hub.</p>
+                <h2>About Me</h2>
+                <p>I began my career in the field as part-time Web developer for a small business</p>
+                <p>I now specialize in front-end development - HTML/CSS/JS, React, Vue, and Wordpress</p>
+                <p>But I also build PHP/MySql based open source Systems/Framework like Laravel or Wordpress</p>
+
             </div>
             )
     }

@@ -1,0 +1,50 @@
+div.polaroid {
+  /* width: 30%; */
+  /* background-color: white; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5%;
+}
+
+div.container {
+  text-align: center;
+  /* padding: 2% 5%; */
+} 
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* .polaroid{
+  margin-left: 5%;
+  text-align: center;
+} */
+
+.porfolio-page{
+  height: 100%;
+  text-align: center;
+}
+
+.portfolio-page > .polaroid{
+  width: 25%;
+  display: inline-block;
+  /* margin: 3%; */
+  margin-left:6.2%;
+  text-align: center;
+}
+
+.portfolio-page > .polaroid:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width: 768px) {
+    .portfolio-page > .polaroid{
+        width: 96%;
+        text-align: center;
+        margin: 2%;
+        margin-bottom: 5%;
+    }
+
+    
+}

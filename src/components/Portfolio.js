@@ -1,28 +1,43 @@
 import React, {Component} from 'react';
-
+import '../stylesheets/portfolio.css';
 
 export default class Portfolio extends Component{
     
     render(){
         return(
 
-            <div className="example-2 card">
-                <div className="wrapper">
-                <div className="header">
-                    <div className="date">
-                        <span className="month">Aug</span>
-                        &nbsp;
-                        <span className="year">2016</span>
+            <div className="portfolio-page">
+
+                <h2>My Projects</h2>
+
+                    <div className="polaroid">
+                        
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/SOME_LIKE_IT_HOT_TITLE.jpg" alt="Norway" className="card-img" />
+                            <div className="container">
+                                <p>Gidii Tv</p>
+                                {/* <p>Web Application like Netflix, created this app to be able to stream video content.</p> */}
+                            </div>
+                        
                     </div>
-                </div>
-                <div className="data">
-                    <div className="content">
-                        <p>Some kind of description about the project entered here...</p>
-                        <a href="#" className="button">Read more</a>
+
+                    <div className="polaroid">
+
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/SOME_LIKE_IT_HOT_TITLE.jpg" alt="Norway" className="card-img" />
+                            <div className="container">
+                                <p>Northern Lights in Norway</p>
+                            </div>
+                        
                     </div>
-                </div>
-                    <h2>Project #1</h2> 
-                </div>
+
+                    <div className="polaroid">
+
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/SOME_LIKE_IT_HOT_TITLE.jpg" alt="Norway" className="card-img" />
+                            <div className="container">
+                                <p>Northern Lights in Norway</p>
+                            </div>
+                        
+                    </div>
+
             </div>
             
             )

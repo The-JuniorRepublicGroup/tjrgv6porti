@@ -5,9 +5,10 @@ export default class Home extends Component{
     
     render(){
         return(
-                <div>
-                    <h1>The Junior Republic Group</h1>
-                    <h6>Think. Software Solutions</h6>
+                <div className="home-page">
+                    <h1>Hi, I'm Raphael</h1>
+                    <h2>Web Developer</h2>
+                    <p>Front-End Developer / React JS / Vue JS / Wordpress</p>
                 </div>
                 
             )

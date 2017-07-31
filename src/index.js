@@ -8,12 +8,13 @@ import About from './components/About.js';
 import Portfolio from './components/Portfolio.js';
 import Contact from './components/Contact.js';
 import Nav from './components/Nav.js';
-// import FooterComponent from './components/FooterComponent.js';
+import FooterComponent from './components/FooterComponent.js';
 
 ReactDOM.render(
   <Router>
     <div>
     <Nav />
+    <FooterComponent />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
